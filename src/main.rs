@@ -28,22 +28,25 @@ impl Component for CounterComponent {
         let link = ctx.link();
         html! {
             <>
+                <nav>
+                    <div class="container">
+                        <h1>{"Cmpny Name"}</h1>
 
-                <ul class="nav">
-                    <li><a class="active" ><i>{"Home"}</i></a></li>
-                    <li><a class="active" ><i>{"About"}</i></a></li>
-                    <li><a class="active" ><i>{"Our Team"}</i></a></li>
-                    <li><a class="active" ><i>{"Try it out"}</i></a></li>
-                </ul>
+                        <div class="menu">
+                            <a href="#" class="is-active">{"Home"}</a>
+                            <a href="#">{"About"}</a>
+                            <a href="#">{"Projects"}</a>
+                            <a href="#">{"Contact"}</a>
+                        </div>
 
-                //<h1 class="heroname">{"Our Company Name"}</h1>
-
-
-
-                <div class="container">
-                    <p>{self.count}</p>
-                    <button onclick={link.callback(|_| Msg::AddOne)}>{"+1"}</button>
-                </div>
+                        <button onclick={link.callback(|_| Msg::AddOne)} class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        //<p>{ self.count }</p>
+                    </div>
+                </nav>
             </>
         }
     }
