@@ -1,5 +1,5 @@
 :root {
-  --primary: #8c38ff;
+  --primary: #00D1FF;
   --light: #EEEEEE;
   --dark: #212121;
 }
@@ -119,6 +119,7 @@ text-transform: uppercase;
 
   .menu a.is-active, .menu a:hover {
     background-color: var(--primary);
+    color: #000000;
   }
   @media (min-width: 768px) {
     .hamburger {

@@ -33,7 +33,8 @@ impl Component for CounterComponent {
                         <h1>{"Cmpny Name"}</h1>
 
                         <div class="menu">
-                            <a href="#" class="is-active">{"Home"}</a>
+                            //add class="is-active" v
+                            <a href="#">{"Home"}</a>
                             <a href="#">{"About"}</a>
                             <a href="#">{"Projects"}</a>
                             <a href="#">{"Contact"}</a>
