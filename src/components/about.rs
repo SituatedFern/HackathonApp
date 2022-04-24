@@ -1,20 +1,14 @@
-mod components;
-
-use components::hero::Hero;
-use components::navbar::Navbar;
-use components::about::About;
-
 use yew::prelude::*;
 
-enum Msg {
+pub enum Msg {
     Inverse,
 }
 
-struct App {
+pub struct About {
     count: bool,
 }
 
-impl Component for App {
+impl Component for About {
     type Message = Msg;
     type Properties = ();
 
@@ -40,15 +34,18 @@ impl Component for App {
         }
 
         html! {
-            <>
-                <Navbar/>
-                <Hero/>
-                <About/>
-            </>
+            <div class="bruh">
+                <section id="about">
+                    <div class="container3">
+                        <div class="info">
+                            <h1>{"About"}</h1>
+                            <div class="moment"><p>{"Gif/Video Demo"}</p></div>
+                            <p>{"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vero ratione vitae dicta explicabo
+        perferendis amet quis provident molestiae magni!"}</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
         }
     }
-}
-
-fn main() {
-    yew::start_app::<App>();
 }
