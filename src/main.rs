@@ -1,9 +1,9 @@
 mod components;
 
+use components::hero::Hero;
 use components::navbar::Navbar;
 
 use yew::prelude::*;
-
 
 enum Msg {
     Inverse,
@@ -41,6 +41,7 @@ impl Component for App {
         html! {
             <>
                 <Navbar/>
+                <Hero/>
             </>
         }
     }
