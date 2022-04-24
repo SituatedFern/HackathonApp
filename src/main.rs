@@ -1,14 +1,19 @@
+mod components;
+
+use components::navbar::Navbar;
+
 use yew::prelude::*;
+
 
 enum Msg {
     Inverse,
 }
 
-struct CounterComponent {
+struct App {
     count: bool,
 }
 
-impl Component for CounterComponent {
+impl Component for App {
     type Message = Msg;
     type Properties = ();
 
@@ -35,31 +40,12 @@ impl Component for CounterComponent {
 
         html! {
             <>
-                <nav>
-                <div class="container">
-                <h1>{"Cmpny Name"}</h1>
-
-                <div class="menu">
-                //add class="is-active" v
-                <a href="#">{"Home"}</a>
-                <a href="#">{"About"}</a>
-                <a href="#">{"Projects"}</a>
-                <a href="#">{"Contact"}</a>
-                </div>
-
-                <button onclick={link.callback(|_| Msg::Inverse)} class={classes}>
-                <span></span>
-                <span></span>
-                <span></span>
-                </button>
-                //<p>{ self.count }</p>
-                </div>
-                </nav>
+                <Navbar/>
             </>
         }
     }
 }
 
 fn main() {
-    yew::start_app::<CounterComponent>();
+    yew::start_app::<App>();
 }
