@@ -1,8 +1,9 @@
 mod components;
 
+use components::about::About;
 use components::hero::Hero;
 use components::navbar::Navbar;
-use components::about::About;
+use components::team::Team;
 
 use yew::prelude::*;
 
@@ -44,6 +45,7 @@ impl Component for App {
                 <Navbar/>
                 <Hero/>
                 <About/>
+                <Team/>
             </>
         }
     }

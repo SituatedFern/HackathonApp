@@ -209,12 +209,6 @@ h1 {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 768px){
-  html{
-    font-size: 10px;
-  }
-}
-
 .moment {
   color: white;
   width: 60%;
@@ -223,4 +217,87 @@ h1 {
   margin: 0 auto;
   border-radius: 20px;
   margin-bottom: 1rem;
+}
+
+
+#team{
+  width: 100%;
+  min-height: 100vh;
+  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gjZa2Rhj15eYOr7hCeHq9gHaJ4%26pid%3DApi&f=1) no-repeat center / cover;
+  color: white;
+}
+
+.container4 {
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container4 .info h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  color: white;
+  justify-items: center;
+}
+
+.container4 .info h2{
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  color: black;
+  justify-items: center;
+}
+
+.container4 .info p{
+  font-size: 1.2rem;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  color: black;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card-image {
+  height: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+  background-image: url('https://ca.slack-edge.com/TCKE4QSG5-U02DSDHG6NM-e897b25cb499-512')
+}
+
+.car-2{
+  background-image: url('https://ca.slack-edge.com/TCKE4QSG5-U02DDP4CLUA-7c8338996212-512')
+}
+
+.car-3{
+  background-image: url('https://ca.slack-edge.com/TCKE4QSG5-U02DKK28DEG-c16245c94198-512')
+}
+
+.car-4{
+  background-image: url('https://ca.slack-edge.com/TCKE4QSG5-U02E3PC4W6L-2e50775985a7-512')
+}
+
+.car-5{
+  background-image: url('https://ca.slack-edge.com/TCKE4QSG5-U02DB0W4CMT-cef8bef9b9fe-512')
 }

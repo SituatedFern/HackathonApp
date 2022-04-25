@@ -1,3 +1,4 @@
-pub mod navbar;
-pub mod hero;
 pub mod about;
+pub mod hero;
+pub mod navbar;
+pub mod team;
