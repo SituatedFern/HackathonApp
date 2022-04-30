@@ -50,7 +50,7 @@ impl Component for Team {
                                 <div class="card">
                                     <div class="card-image car-5"></div>
                                     <h2>{"Kiara Soin"}</h2>
-                                    <p>{"@TooKouForSchool"}</p>
+                                    <p><a href="https://www.linkedin.com/in/kairasoin/">{"@KiaraSoin"}</a></p>
                                 </div>
                             </div>
                         </div>
