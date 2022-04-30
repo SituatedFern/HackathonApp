@@ -29,8 +29,11 @@ impl Component for Navbar {
         let link = ctx.link();
 
         let mut classes = vec!["hamburger"];
+        let mut hider = vec!["hidden"];
         if self.count == false {
-            classes.push("is-active")
+            classes.push("is-active");
+            hider.clear();
+            hider.push("dropdown");
         }
 
         html! {
@@ -55,6 +58,12 @@ impl Component for Navbar {
                 //<p>{ self.count }</p>
                 </div>
                 </nav>
+                <div class={hider}>
+                    <a href="#hero">{"Home"}</a>
+                    <a href="#about">{"About"}</a>
+                    <a href="#team">{"Our Team"}</a>
+                    <a href="#demos">{"Sample Demos"}</a>
+                </div>
             </>
         }
     }
