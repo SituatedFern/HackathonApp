@@ -5,6 +5,7 @@ use components::hero::Hero;
 use components::navbar::Navbar;
 use components::team::Team;
 use components::demos::Demos;
+use components::footer::Footer;
 
 use yew::prelude::*;
 
@@ -35,6 +36,7 @@ impl Component for App {
                 <About/>
                 <Team/>
                 <Demos/>
+                <Footer/>
             </>
         }
     }

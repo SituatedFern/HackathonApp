@@ -3,10 +3,10 @@ use yew::prelude::*;
 pub enum Msg {
 }
 
-pub struct Mobile {
+pub struct Footer {
 }
 
-impl Component for Mobile {
+impl Component for Footer {
     type Message = Msg;
     type Properties = ();
 
@@ -23,12 +23,8 @@ impl Component for Mobile {
     fn view(&self, ctx: &Context<Self>) -> Html {
 
         html! {
-            <div class="dropdown">
-                <a href="#hero">{"Home"}</a>
-                <a href="#about">{"About"}</a>
-                <a href="#team">{"Our Team"}</a>
-                <a href="#demos">{"Sample Demos"}</a>
-            </div>
+            <>
+            </>
         }
     }
 }
