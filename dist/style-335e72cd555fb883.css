@@ -120,14 +120,6 @@ h1 {
   background-color: var(--primary);
   color: #000000;
 }
-@media (min-width: 768px) {
-  .hamburger {
-    display: none;
-  }
-  .menu {
-    display: flex;
-  }
-}
 
 .bruh {
   font-family: 'IBM Plex Mono', monospace;
@@ -175,12 +167,6 @@ h1 {
   padding: .5em 2em;
   margin-top: 2rem;
   color: var(--primary);
-}
-
-@media only screen and (max-width: 768px){
-  html{
-    font-size: 10px;
-  }
 }
 
 #about{
@@ -346,12 +332,6 @@ h1 {
   padding-bottom: 2rem;
 }
 
-@media (min-width: 768px) {
-  .dropdown {
-    display: none;
-  }
-}
-
 .dropdown a {
   padding: 1rem;
   color: white;
@@ -367,3 +347,102 @@ h1 {
 .hidden {
   display: none;
 }
+
+.footer-container {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--dark);
+  padding: 4rem 0 4rem 0;
+}
+
+.footer {
+  font-family: Poppins;
+  width: 80%;
+  height: 40vh;
+  background-color: var(--dark);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading h2 {
+  margin-bottom: 2rem;
+}
+
+.footer-heading a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+  color: var(--primary);
+  transition: 0.3s ease-out;
+}
+
+.footer-email-form h2 {
+  margin-bottom: 2rem;
+}
+
+input[type=email] {
+  width: 7rm;
+  height: 40px;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+  color: #b1b1b1;
+}
+
+#footer-email-btn {
+  width: 5rem;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+  background-color: var(--light);
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 1rem;
+}
+
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: var(--primary);
+  transition: all 0.4s ease-out;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  html{
+    font-size: 10px;
+  }
+  .footer-3 {
+    display: none;
+  }
+}
+
