@@ -1,11 +1,9 @@
 use yew::prelude::*;
 
 pub enum Msg {
-    Inverse,
 }
 
 pub struct Team {
-    count: bool,
 }
 
 impl Component for Team {
@@ -13,26 +11,15 @@ impl Component for Team {
     type Properties = ();
 
     fn create(_ctx: &Context<Self>) -> Self {
-        Self { count: true }
+        Self {  }
     }
 
     fn update(&mut self, _ctx: &Context<Self>, msg: Self::Message) -> bool {
         match msg {
-            Msg::Inverse => {
-                self.count = !self.count;
-                true //re-render component
-            }
         }
     }
 
     fn view(&self, ctx: &Context<Self>) -> Html {
-        let link = ctx.link();
-
-        let mut classes = vec!["hamburger"];
-        if self.count == false {
-            classes.push("is-active")
-        }
-
         html! {
             <div class="bruh">
                 <section id="team">

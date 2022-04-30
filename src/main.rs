@@ -9,11 +9,9 @@ use components::demos::Demos;
 use yew::prelude::*;
 
 enum Msg {
-    Inverse,
 }
 
 struct App {
-    count: bool,
 }
 
 impl Component for App {
@@ -21,26 +19,15 @@ impl Component for App {
     type Properties = ();
 
     fn create(_ctx: &Context<Self>) -> Self {
-        Self { count: true }
+        Self {  }
     }
 
     fn update(&mut self, _ctx: &Context<Self>, msg: Self::Message) -> bool {
         match msg {
-            Msg::Inverse => {
-                self.count = !self.count;
-                true //re-render component
-            }
         }
     }
 
     fn view(&self, ctx: &Context<Self>) -> Html {
-        let link = ctx.link();
-
-        let mut classes = vec!["hamburger"];
-        if self.count == false {
-            classes.push("is-active")
-        }
-
         html! {
             <>
                 <Navbar/>
