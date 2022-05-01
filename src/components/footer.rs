@@ -37,7 +37,7 @@ impl Component for Footer {
                             <h2>{"Content"}</h2>
                             <a href="https://youtu.be/gSH0kYG0yFc">{"Video"}</a>
                             <a href="#">{"Onepager"}</a>
-                            <a href="#">{"Article"}</a>
+                            <a href="https://medium.com/@kabirbedi1005/tempus-ai-powered-hypnotism-c6115a93d610">{"Article"}</a>
                             <a href="#">{"Presentation"}</a>
                         </div>
                         <div class="footer-heading footer-3">
