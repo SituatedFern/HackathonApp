@@ -26,10 +26,9 @@ impl Component for Hero {
                     <div class="container2">
                         <div class="info">
                             <h1>{"This is Tempus"}</h1>
-                            <h2>{"Lorem ipsum dolor sit amet."}</h2>
-                            <p>{"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vero ratione vitae dicta explicabo
-        perferendis amet quis provident molestiae magni!"}</p>
-                            <a href="#">{"Click Me"}</a>
+                            <h2>{"AI Powered Hypnosis"}</h2>
+                            <p>{"Hypnosis has been mostly restricted by the fact that it relies on human interactions. We can simulate these interactions using Natural Language Processing and Machine Learning to create fully tailored hypnotic experiences. Our model will be able to adapt to the needs and goals of the subject and could be applied to a large demographic."}</p>
+                            <a href="#">{"Whitepaper"}</a>
                         </div>
                     </div>
                 </section>

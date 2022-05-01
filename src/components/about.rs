@@ -29,8 +29,7 @@ impl Component for About {
                         <div class="info">
                             <h1>{"About"}</h1>
                             <div class="moment"><p>{"Gif/Video Demo"}</p></div>
-                            <p>{"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vero ratione vitae dicta explicabo
-        perferendis amet quis provident molestiae magni!"}</p>
+                            <p>{"An ML model learns about the preferences and personality of the subject, and adapts it dynamically depending on their reactions while in trance. This provides the foundation for a software ecosystem that can fulfill the aforementioned applications, while being scalable and cheap to deploy due to being fully digitized."}</p>
                         </div>
                     </div>
                 </section>
