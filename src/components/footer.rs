@@ -35,14 +35,14 @@ impl Component for Footer {
                         </div>
                         <div class="footer-heading footer-2">
                             <h2>{"Content"}</h2>
-                            <a href="#">{"Video"}</a>
+                            <a href="https://youtu.be/gSH0kYG0yFc">{"Video"}</a>
                             <a href="#">{"Onepager"}</a>
                             <a href="#">{"Article"}</a>
                             <a href="#">{"Presentation"}</a>
                         </div>
                         <div class="footer-heading footer-3">
                             <h2>{"Social Media"}</h2>
-                            <a href="#">{"Youtube"}</a>
+                            <a href="https://youtu.be/gSH0kYG0yFc">{"Youtube"}</a>
                             <a href="#">{"Odysee"}</a>
                             <a href="#">{"LinkedIn"}</a>
                             <a href="#">{"Twitter"}</a>
