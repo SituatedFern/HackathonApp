@@ -129,7 +129,7 @@ h1 {
 #hero{
   width: 100%;
   height: 100vh;
-  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gjZa2Rhj15eYOr7hCeHq9gHaJ4%26pid%3DApi&f=1) no-repeat center / cover;
+  background: url(assets/black.webp) no-repeat center / cover;
   color: white;
 }
 
@@ -213,7 +213,7 @@ h1 {
 #team{
   width: 100%;
   min-height: 100vh;
-  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gjZa2Rhj15eYOr7hCeHq9gHaJ4%26pid%3DApi&f=1) no-repeat center / cover;
+  background: url(assets/black.webp) no-repeat center / cover;
   color: white;
 }
 
