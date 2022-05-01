@@ -49,8 +49,8 @@ impl Component for Team {
                                 </div>
                                 <div class="card">
                                     <div class="card-image car-5"></div>
-                                    <h2>{"Kiara Soin"}</h2>
-                                    <p><a href="https://www.linkedin.com/in/kairasoin/">{"@KiaraSoin"}</a></p>
+                                    <h2>{"Kaira Soin"}</h2>
+                                    <p><a href="https://www.linkedin.com/in/kairasoin/">{"@KairaSoin"}</a></p>
                                 </div>
                             </div>
                         </div>
