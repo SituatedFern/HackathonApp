@@ -166,7 +166,12 @@ h1 {
   font-size: 1.8rem;
   padding: .5em 2em;
   margin-top: 2rem;
-  color: var(--primary);
+  color: black;
+}
+
+.container2 .info a:hover{
+  background: var(--primary);
+  transition: 0.4s ease-out;
 }
 
 #about{
