@@ -40,7 +40,7 @@ impl Component for Navbar {
             <>
                 <nav>
                 <div class="container">
-                <h1>{"Cmpny Name"}</h1>
+                <h1>{"Tempus"}</h1>
 
                 <div class="menu">
                 //add class="is-active" v

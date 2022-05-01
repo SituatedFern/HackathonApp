@@ -45,7 +45,7 @@ impl Component for Team {
                                 <div class="card">
                                     <div class="card-image car-4"></div>
                                     <h2>{"Kabir Bedi"}</h2>
-                                    <p>{"@TooKouForSchool"}</p>
+                                    <p>{"@KabirBedi"}</p>
                                 </div>
                                 <div class="card">
                                     <div class="card-image car-5"></div>

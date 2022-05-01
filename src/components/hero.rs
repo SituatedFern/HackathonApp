@@ -25,7 +25,7 @@ impl Component for Hero {
                 <section id="hero">
                     <div class="container2">
                         <div class="info">
-                            <h1>{"This is Heading"}</h1>
+                            <h1>{"This is Tempus"}</h1>
                             <h2>{"Lorem ipsum dolor sit amet."}</h2>
                             <p>{"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vero ratione vitae dicta explicabo
         perferendis amet quis provident molestiae magni!"}</p>
