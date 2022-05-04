@@ -218,8 +218,9 @@ h1 {
 #team{
   width: 100%;
   min-height: 100vh;
-  background: black no-repeat center / cover;
+  background: black;
   color: white;
+  display: table;
 }
 
 .container4 {
@@ -255,10 +256,12 @@ h1 {
 }
 
 .cont {
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 5rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
 }
 
 .card {
@@ -440,6 +443,9 @@ input[type=email] {
   .dropdown {
     display: none;
   }
+  .cont {
+    margin-top: 5rem;
+  }
 }
 
 @media only screen and (max-width: 768px){
@@ -448,6 +454,9 @@ input[type=email] {
   }
   .footer-3 {
     display: none;
+  }
+  .cont {
+    margin-bottom: 5rem;
   }
 }
 
