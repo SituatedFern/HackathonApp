@@ -28,39 +28,37 @@ impl Component for Pricing {
                             <h1>{"Pricing"}</h1>
                             <div class="cont">
                                 <div class="pricecard">
-                                    <p class="bubble">{"1 Free Session"}</p>
-                                    <h2>{"$11.99 CAD"}</h2>
-                                    <h3>{"per month"}</h3>
-                                    <ul>
-                                        <li>{"Normal 5 min Sessions"}</li>
-                                        <li>{"Something else"}</li>
-                                        <li>{"Something else"}</li>
-                                    </ul>
-                                    <p class="bubble zerodis">{"Get Started"}</p>
-                                </div>
-
-                                <div class="pricecard">
-                                    <p class="bubble">{"1 Free Session"}</p>
-                                    <h2>{"$16.99 CAD"}</h2>
-                                    <h3>{"per month"}</h3>
-                                    <ul>
-                                        <li>{"Thorough 10 min Sessions"}</li>
-                                        <li>{"Something else"}</li>
-                                        <li>{"Something else"}</li>
-                                    </ul>
-                                    <p class="bubble zerodis">{"Get Started"}</p>
-                                </div>
-
-                                <div class="pricecard">
-                                    <p class="bubble">{"1 Free Session"}</p>
+                                    <p class="bubble">{"Consumers"}</p>
                                     <h2>{"$20.99 CAD"}</h2>
                                     <h3>{"per month"}</h3>
                                     <ul>
-                                        <li>{"Thorough 20 min Sessions"}</li>
-                                        <li>{"Something else"}</li>
-                                        <li>{"Something else"}</li>
+                                        <li>{"Recreation"}</li>
+                                        <li>{"Stress Relief"}</li>
+                                        <li>{"Self Improvement"}</li>
                                     </ul>
-                                    <p class="bubble zerodis">{"Get Started"}</p>
+                                    <p class="bubble zerodis clicker">{"Get Started"}</p>
+                                </div>
+
+                                <div class="pricecard">
+                                    <p class="bubble">{"Developers"}</p>
+                                    <h2>{"Free"}</h2>
+                                    <h3>{"per month"}</h3>
+                                    <ul>
+                                        <li>{"Deployment ready core NLP model"}</li>
+                                        <li>{"Non-commercial Licence"}</li>
+                                    </ul>
+                                    <p class="bubble zerodis clicker">{"Get Started"}</p>
+                                </div>
+
+                                <div class="pricecard">
+                                    <p class="bubble">{"Enterprise"}</p>
+                                    <h2>{"$99.99 CAD"}</h2>
+                                    <h3>{"per month"}</h3>
+                                    <ul>
+                                        <li>{"Full commercial licence"}</li>
+                                        <li>{"Power your product using our model"}</li>
+                                    </ul>
+                                    <p class="bubble zerodis clicker">{"Get Started"}</p>
                                 </div>
 
                             </div>

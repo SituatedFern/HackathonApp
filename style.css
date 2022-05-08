@@ -513,9 +513,6 @@ input[type=email] {
   }
 }
 
-
-
-
 #pricing{
   width: 100%;
   min-height: 100vh;
@@ -596,4 +593,16 @@ input[type=email] {
   margin-right: auto;
   width: auto;
   bottom: 6px;
+}
+
+.clicker {
+  background: var(--primary);
+  color: black;
+}
+
+.clicker:hover {
+  background: var(--dark);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-out;
 }
