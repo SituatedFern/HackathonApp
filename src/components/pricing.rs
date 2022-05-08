@@ -28,8 +28,8 @@ impl Component for Pricing {
                             <h1>{"Pricing"}</h1>
                             <div class="cont">
                                 <div class="pricecard">
-                                    <p class="bubble">{"Consumers"}</p>
-                                    <h2>{"$20.99 CAD"}</h2>
+                                    <p class="bubble">{"Individuals"}</p>
+                                    <h2>{"$14.99 CAD"}</h2>
                                     <h3>{"per month"}</h3>
                                     <ul>
                                         <li>{"Recreation"}</li>
@@ -42,10 +42,10 @@ impl Component for Pricing {
                                 <div class="pricecard">
                                     <p class="bubble">{"Developers"}</p>
                                     <h2>{"Free"}</h2>
-                                    <h3>{"per month"}</h3>
                                     <ul>
                                         <li>{"Deployment ready core NLP model"}</li>
-                                        <li>{"Non-commercial Licence"}</li>
+                                        <li>{"Free academic use"}</li>
+                                        <li>{"Non-commercial licence"}</li>
                                     </ul>
                                     <p class="bubble zerodis clicker">{"Get Started"}</p>
                                 </div>
@@ -55,7 +55,7 @@ impl Component for Pricing {
                                     <h2>{"$99.99 CAD"}</h2>
                                     <h3>{"per month"}</h3>
                                     <ul>
-                                        <li>{"Full commercial licence"}</li>
+                                        <li>{"10 full commercial licences"}</li>
                                         <li>{"Power your product using our model"}</li>
                                     </ul>
                                     <p class="bubble zerodis clicker">{"Get Started"}</p>

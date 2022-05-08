@@ -27,7 +27,7 @@ impl Component for Demos {
                 <section id="demos">
                     <div class="container5">
                         <div class="info">
-                            <h1>{"Sample Demos"}</h1>
+                            <h1>{"Demos"}</h1>
                             <p>{"Any good samples that we have will go here. This will be a hub for the cool responses that we get from GPT-3. Images will be posted of curated responses that show what we are trying to accomplish (a proof of concept)."}</p>
                         </div>
                     </div>
