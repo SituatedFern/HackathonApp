@@ -28,7 +28,7 @@ impl Component for Hero {
                             <h1>{"This is Tempus"}</h1>
                             <h2>{"AI Powered Hypnosis"}</h2>
                             <p>{"Hypnosis has been mostly restricted by the fact that it relies on human interactions. We can simulate these interactions using Natural Language Processing and Machine Learning to create fully tailored hypnotic experiences. Our model will be able to adapt to the needs and goals of the subject and could be applied to a large demographic."}</p>
-                            <a href="#">{"Whitepaper"}</a>
+                            <a href="https://medium.com/@kabirbedi1005/tempus-ai-powered-hypnotism-c6115a93d610">{"Whitepaper"}</a>
                         </div>
                     </div>
                 </section>
