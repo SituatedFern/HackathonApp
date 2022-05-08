@@ -6,6 +6,7 @@ use components::navbar::Navbar;
 use components::team::Team;
 use components::demos::Demos;
 use components::footer::Footer;
+use components::setup::Setup;
 
 use yew::prelude::*;
 
@@ -34,8 +35,9 @@ impl Component for App {
                 <Navbar/>
                 <Hero/>
                 <About/>
-                <Team/>
+                <Setup/>
                 <Demos/>
+                <Team/>
                 <Footer/>
             </>
         }

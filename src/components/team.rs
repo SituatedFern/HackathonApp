@@ -40,12 +40,12 @@ impl Component for Team {
                                 <div class="card">
                                     <div class="card-image car-3"></div>
                                     <h2>{"William Kou"}</h2>
-                                    <p>{"@TooKouForSchool"}</p>
+                                    <p><a href="https://tks.life/profile/william.kou#about">{"@WilliamKou"}</a></p>
                                 </div>
                                 <div class="card">
                                     <div class="card-image car-4"></div>
                                     <h2>{"Kabir Bedi"}</h2>
-                                    <p>{"@KabirBedi"}</p>
+                                    <p><a href="https://www.instagram.com/notkabirbedi/">{"@notkabirbedi"}</a></p>
                                 </div>
                                 <div class="card">
                                     <div class="card-image car-5"></div>

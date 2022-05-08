@@ -30,8 +30,8 @@ impl Component for Footer {
                             <h2>{"View Again"}</h2>
                             <a href="#hero">{"Home"}</a>
                             <a href="#about">{"About"}</a>
-                            <a href="#team">{"Our Team"}</a>
                             <a href="#demos">{"Sample Demos"}</a>
+                            <a href="#team">{"Our Team"}</a>
                         </div>
                         <div class="footer-heading footer-2">
                             <h2>{"Content"}</h2>

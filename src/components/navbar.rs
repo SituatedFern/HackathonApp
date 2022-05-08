@@ -46,8 +46,8 @@ impl Component for Navbar {
                 //add class="is-active" v
                 <a href="#hero">{"Home"}</a>
                 <a href="#about">{"About"}</a>
-                <a href="#team">{"Our Team"}</a>
                 <a href="#demos">{"Sample Demos"}</a>
+                <a href="#team">{"Our Team"}</a>
                 </div>
 
                 <button onclick={link.callback(|_| Msg::Inverse)} class={classes}>
