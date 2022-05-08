@@ -7,6 +7,7 @@ use components::team::Team;
 use components::demos::Demos;
 use components::footer::Footer;
 use components::setup::Setup;
+use components::pricing::Pricing;
 
 use yew::prelude::*;
 
@@ -38,6 +39,7 @@ impl Component for App {
                 <Setup/>
                 <Demos/>
                 <Team/>
+                <Pricing/>
                 <Footer/>
             </>
         }

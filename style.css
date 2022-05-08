@@ -513,3 +513,87 @@ input[type=email] {
   }
 }
 
+
+
+
+#pricing{
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+  color: black;
+  display: table;
+}
+
+.container7 {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container7 .info h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  color: black;
+  justify-items: center;
+}
+
+.container7 .info h2{
+  margin-top: 20px;
+  color: black;
+  justify-items: center;
+}
+
+.container7 .info h3{
+  color: var(--dark);
+  justify-items: center;
+}
+
+.container7 .info p{
+  max-width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.container7 .info ul{
+  margin-top: 40px;
+  font-size: 14px;
+  color: black;
+  position: absolute;
+  display: inline-block;
+  margin-left: -65px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.pricecard {
+  background: white;
+  width: 250px;
+  color: black;
+  margin: 10px;
+  border-radius: 15px;
+  border: 4px solid black;
+  min-height: 350px;
+  position: relative;
+}
+
+.bubble {
+  border-radius: 68px;
+  background: var(--primary);
+  color: black;
+}
+
+.zerodis {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  bottom: 6px;
+}
